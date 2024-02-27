@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "162296019822",
+    "project_id": "poloniex-market",
+    "storage_bucket": "poloniex-market.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162296019822:android:e5b5c2bb1089284f0bdf7f",
+        "android_client_info": {
+          "package_name": "com.example.poloniex_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsrx6ZXLJ5zG5gRbCn5VNuvBT6yjDuLlk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
