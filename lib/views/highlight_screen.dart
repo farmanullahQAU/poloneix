@@ -15,7 +15,8 @@ class TradeHighlightScreen extends GetView<WebSocketController> {
         SizedBox(
           width: context.width * 0.5,
           child: TextField(
-            onSubmitted: controller.onPriceSubmit,
+            onSubmitted: controller.onUserPriceChange,
+            onChanged: controller.onUserPriceChange,
             keyboardType: const TextInputType.numberWithOptions(decimal: true),
             controller: controller.userPriceController,
             decoration: const InputDecoration(

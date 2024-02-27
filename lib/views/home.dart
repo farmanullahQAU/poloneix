@@ -14,11 +14,15 @@ class PoloniexApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: const Text('Poloniex App'),
       ),
-      body: Column(
+      body: ListView(
         children: [
           const PriceChartView(),
+          const SizedBox(
+            height: 32,
+          ),
           StreamBuilder(
             stream: webSocketController.ticker.stream,
             builder: (context, snapshot) {

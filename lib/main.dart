@@ -11,6 +11,8 @@ void main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
   runApp(GetMaterialApp(
+    themeMode: ThemeMode.dark,
+    theme: ThemeData.dark(),
     home: LoginPage(),
   ));
 }

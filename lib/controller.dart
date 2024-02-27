@@ -99,7 +99,7 @@ class WebSocketController extends GetxController {
     super.onClose();
   }
 
-  void onPriceSubmit(String value) {
+  void onUserPriceChange(String value) {
     if (value.isNotEmpty) {
       userPrice = double.tryParse(value) ?? 0;
       update(["highlight"]);
