@@ -6,7 +6,11 @@ A new Flutter project.
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## How to run the app
+1. clone the poloneix repository in you pc
+2. run flutter clean and flutter pub get
+3. connect your device or emulator and run fluter run
+4. wait a little while the socket is connecting
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
